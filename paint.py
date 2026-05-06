@@ -43,9 +43,9 @@ def circle(start, end):
     down()
     begin_fill()
 
-    for count in range(360):
-        forward(end.x - start.x)
-        left(1)
+    for count in range(45):
+        forward((end.x - start.x)/4)
+        left(8)
 
     end_fill()
 
